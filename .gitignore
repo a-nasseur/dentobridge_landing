@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js
+.next
+.next/*
+.next/cache
+.turbo
+.vercel
+dist
+out
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+*.log
+tsconfig.tsbuildinfo
+
+# OS files
+.DS_Store
+nul
+
+# Local settings
+.claude/settings.local.json
